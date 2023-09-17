@@ -10,7 +10,7 @@
     "prestart": "npm install",
     "watch": "forever -w server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "forever -w server.js"
   },
   "author": "",
   "license": "ISC",
